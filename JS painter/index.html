@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color-palette"> 
+        <input type="text" id="hex">
+        <input type="color" id="color" onclick="selectColor">
+        <div class="color-circle active" data-color="hotpink" onclick="selcetoColor(this);"></div>
+
+
+    </div>
+    <div class=""></div>
+
+     <div id="pen-size" class="pen-size">
+     <label for="pen-size"><i class="fa fa-pencil " ></i> Pen size</label>
+     <input type="range" name="pen-size" id="pen-size" value="10" step="5" min="5" max="40" onchange="penSizeChange(this.value);">
+    </div>
+
+     <canvas class="myCanvas colo-palette" id="drawArea" width="400" height="340"></canvas> -->
+    
+
+    
+    <script src="/index.js"></script>
+</body>
+</html>
